@@ -38,14 +38,9 @@ button {
 }
 
 .header {
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/iron-bg.jpg') ; */
-    /* background-image: url('../img/Group.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain; */
     z-index: 0;
     position: relative;
-    background: linear-gradient(90deg, #000000 1.29%, rgba(0, 0, 0, 0.69) 50%), url('../img/iron-bg.jpg');
+    background: linear-gradient(90deg, #000000 19.29%, rgba(0, 0, 0, 0.69) 50%), url('../img/iron-bg.jpg');
 }
 
 .header__tiny {
@@ -57,6 +52,7 @@ button {
     right: 0;
     top: 0;
     max-height: 100%;
+    z-index: -1;
 }
 
 .header__wrapper {
@@ -65,7 +61,6 @@ button {
     align-items: center;
     justify-content: flex-start;
     gap: 113px;
-    /* justify-content: space-between; */
 }
 
 .logo {
@@ -204,16 +199,11 @@ button {
     display: none;
 } 
 
-.gallery {
+/* .gallery {
     position: absolute;
     top: -111px;
     right: -189px;
     z-index: -3;
-    /* top: -100px;
-    right: 0; */
-    /* width: 611.35px; */
-    /* max-height: 181px;
-    max-width: 570px; */
     width: 470px;
     height: 457.82px;
     gap: 8px;
@@ -227,14 +217,13 @@ button {
     height: 147.77px;
     border: 2px solid #FFFFFF;
     border-radius: 5px;
+} */
 
-}
-
-/* @media (max-width: 1800px) {
+@media (max-width: 1800px) {
     .header__wrapper {
         gap: 30px;
     }
-} */
+}
 
 @media (max-width: 480px) {
     .container {
@@ -325,6 +314,3 @@ button {
         overflow: hidden;
     }
 }
-
-
-
